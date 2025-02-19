@@ -28,7 +28,10 @@ class Student extends Person{
 }
 public class jicheng {
     public static void main(String[] args) {
+        Person b = new Person();
+        System.out.println(b instanceof Student);
         Student a = new Student();
+        System.out.println(a instanceof Person);
         a.setPerson("aa",18);
         a.setScore(85);
         System.out.println(a.getName()+a.getAge()+a.getScore());
