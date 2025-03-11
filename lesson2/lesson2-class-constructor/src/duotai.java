@@ -21,6 +21,9 @@ public class duotai {
         int add(int a,int b,int c){
             return a+b+c;
         }
+        double add(double a,double b,double c){
+            return a+b+c;
+        }
     }
     public static void main(String[] args) {
         duotai a=new duotai();
@@ -29,6 +32,6 @@ public class duotai {
         Student as=a.new Student();
         System.out.println(as.run());
         Chongzai ac=a.new Chongzai();
-        System.out.println(ac.add(5,6)+" "+ac.add(5.5,7.8)+" "+ac.add(99,44,66));
+        System.out.println(ac.add(5,6)+" "+ac.add(5.5,7.8)+" "+ac.add(99,44,66)+" "+ac.add(9.5,4.1,61));
     }
 }
